@@ -39,7 +39,7 @@ var dropdown = document.getElementsByClassName("dropbtn");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
-dropdown[i].addEventListener("click", function() {
+  dropdown[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var dropdownContent = this.nextElementSibling;
     if (dropdownContent.style.display === "block") {
@@ -47,6 +47,6 @@ dropdown[i].addEventListener("click", function() {
     } else {
         dropdownContent.style.display = "block";
     }
-});
+  });
 }
 /* == Onclick Responsive Menu Link == */

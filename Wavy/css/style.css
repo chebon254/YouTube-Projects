@@ -1,39 +1,14 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 body{
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.custom-shape-divider-bottom-1643809291 {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-
-    background-color: #1f1f1f;
-}
-
-.custom-shape-divider-bottom-1643809291 svg {
-    position: relative;
-    display: block;
-    width: calc(137% + 1.3px);
-    height: 217px;
-}
-
-.custom-shape-divider-bottom-1643809291 .shape-fill {
-    fill: #FFFFFF;
-}
-
-
 .container{
     width: 1140px;
     margin: auto;
@@ -51,7 +26,7 @@ header{
 }
 .header.sticky{
     background-color: #ffffff;
-    border-bottom: 3px solid #6610f2;
+    border-bottom: 3px solid #e14036;
     box-shadow: 6px 6px 24px #00000033;
     transition: all ease 0.4s;
 }
@@ -59,10 +34,10 @@ header{
     color: #000000;
 }
 .header.sticky .color:hover{
-    color: #6610f2;
+    color: #e14036;
 }
 .header.sticky .logo{
-    color: #6610f2;
+    color: #e14036;
 }
 .header.sticky  .hide{
     display: none;
@@ -190,7 +165,7 @@ nav{
     height: fit-content;
     min-width: 200px;
     background-color: #f9f9f9;
-    border-top: 6px solid #6610f2;
+    border-top: 6px solid #e14036;
 
     padding: 10px 10px;
     position: absolute;
@@ -204,7 +179,7 @@ nav{
     height: 8px;
     width: 8px;
     position: absolute;
-    background-color: #6610f2;
+    background-color: #e14036;
     top: -10px;
     left: 28px;
     transform: rotate(45deg);
@@ -220,7 +195,7 @@ nav{
     padding: 6px 0;
 }
 .drop a:hover{
-    color: #6610f2;
+    color: #e14036;
     transition: all ease 0.4s;
     transform: translateX(4px);
 }
@@ -292,7 +267,6 @@ nav{
     height: 470px;
     width: 100vw;
     background-color: #000000a1;
-    position: relative;
 }
 .banner{
     height: 360px;
@@ -374,11 +348,11 @@ nav{
     color: #ffffff;
 }
 .btn-search-submit:hover i{
-    color: #6610f2;
+    color: #e14036;
     transition: 0.2s;
 }
 .overlay .closebtn:hover{
-    color: #6610f2;
+    color: #e14036;
 }
 
 
@@ -406,6 +380,21 @@ nav{
             bottom:0;
             opacity:1
         }
+}
+.text-content{
+    width: 80%;
+    padding: 0px 20px;
+    margin: auto;
+}
+.text-content h1{
+    font-weight: 800;
+    margin: 10px 0px;
+    color: #e14036;
+}
+.text-content p{
+    font-weight: 400;
+    line-height: 40px;
+    margin: 10px 0px;
 }
 
 /* == || End Overlay == */
@@ -460,14 +449,15 @@ nav{
         right: 10px;
     }
     .cancel-btn:hover{
-        color: #6610f2;
+        color: #e14036;
     }
     .dropdown-logo{
         width: unset;
         display: block;
         font-size: 26px;
         font-weight: 900;
-        color: #6610f2;
+
+        color: #e14036;
         text-decoration: none;
         padding: 25px 15px 10px;
         text-align: center;
@@ -482,6 +472,7 @@ nav{
         width: 100%;
         font-size: 13px;
         font-weight: 600;
+
         color: #222222;
         margin: 0px;
         letter-spacing: 0.03em;
@@ -510,6 +501,7 @@ nav{
     .drop a {
         font-size: 13px;
         font-weight: 400;
+
         color: #000000;
         float: none;
         text-decoration: none;
@@ -518,14 +510,14 @@ nav{
         padding: 6px 0px;
     }    
     .active{
-        color: #6610f2;
+        color: #e14036;
         background-color: #f9f9f9;
     }
     .dropdown:hover .drop {
         display: none;
     }
     .dropdown:hover .dropbtn{
-        color: #6610f2;
+        color: #e14036;
     }
     .drop .square{
         display: none;
@@ -594,14 +586,15 @@ nav{
         right: 10px;
     }
     .cancel-btn:hover{
-        color: #6610f2;
+        color: #e14036;
     }
     .dropdown-logo{
         width: unset;
         display: block;
         font-size: 26px;
         font-weight: 900;
-        color: #6610f2;
+
+        color: #e14036;
         text-decoration: none;
         padding: 25px 15px 10px;
         text-align: center;
@@ -616,6 +609,7 @@ nav{
         width: 100%;
         font-size: 13px;
         font-weight: 600;
+
         color: #222222;
         margin: 0px;
         letter-spacing: 0.03em;
@@ -644,6 +638,7 @@ nav{
     .drop a {
         font-size: 13px;
         font-weight: 400;
+
         color: #000000;
         float: none;
         text-decoration: none;
@@ -652,14 +647,14 @@ nav{
         padding: 6px 0px;
     }    
     .active{
-        color: #6610f2;
+        color: #e14036;
         background-color: #f9f9f9;
     }
     .dropdown:hover .drop {
         display: none;
     }
     .dropdown:hover .dropbtn{
-        color: #6610f2;
+        color: #e14036;
     }
     .drop .square{
         display: none;
@@ -728,14 +723,15 @@ nav{
         right: 10px;
     }
     .cancel-btn:hover{
-        color: #6610f2;
+        color: #e14036;
     }
     .dropdown-logo{
         width: unset;
         display: block;
         font-size: 26px;
         font-weight: 900;
-        color: #6610f2;
+
+        color: #e14036;
         text-decoration: none;
         padding: 25px 15px 10px;
         text-align: center;
@@ -750,6 +746,7 @@ nav{
         width: 100%;
         font-size: 13px;
         font-weight: 600;
+
         color: #222222;
         margin: 0px;
         letter-spacing: 0.03em;
@@ -778,6 +775,7 @@ nav{
     .drop a {
         font-size: 13px;
         font-weight: 400;
+
         color: #000000;
         float: none;
         text-decoration: none;
@@ -786,14 +784,14 @@ nav{
         padding: 6px 0px;
     }    
     .active{
-        color: #6610f2;
+        color: #e14036;
         background-color: #f9f9f9;
     }
     .dropdown:hover .drop {
         display: none;
     }
     .dropdown:hover .dropbtn{
-        color: #6610f2;
+        color: #e14036;
     }
     .drop .square{
         display: none;
@@ -859,13 +857,14 @@ nav{
         right: 10px;
     }
     .cancel-btn:hover{
-        color: #6610f2;
+        color: #e14036;
     }
     .dropdown-logo{
         display: block;
         font-size: 26px;
         font-weight: 900;
-        color: #6610f2;
+
+        color: #e14036;
         text-decoration: none;
         padding: 25px 15px 10px;
         text-align: center;
@@ -880,6 +879,7 @@ nav{
         width: 400px;
         font-size: 13px;
         font-weight: 600;
+
         color: #222222;
         margin: 0px;
         letter-spacing: 0.03em;
@@ -908,6 +908,7 @@ nav{
     .drop a {
         font-size: 13px;
         font-weight: 400;
+
         color: #000000;
         float: none;
         text-decoration: none;
@@ -916,14 +917,14 @@ nav{
         padding: 6px 0px;
     }    
     .active{
-        color: #6610f2;
+        color: #e14036;
         background-color: #f9f9f9;
     }
     .dropdown:hover .drop {
         display: none;
     }
     .dropdown:hover .dropbtn{
-        color: #6610f2;
+        color: #e14036;
     }
     .drop .square{
         display: none;
@@ -957,4 +958,14 @@ nav{
     .dummy .phoneSmall{
         display: none;
     }
+}
+.test{
+    height: fit-content;
+    width: 100vw;
+}
+.test .dummy{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 40px 20px;
 }
