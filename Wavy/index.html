@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+
+    <!-- == Favicon == -->
+    <link rel="shortcut icon" href="css/img/html icon.png">
+
+    <!-- == Style Sheet == -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- == Icons == -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+
+    <!-- == Fonts == -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="overlay" id="overLay">
+        <span class="closebtn" title="Close Overlay" onclick="closeSearch()"><i class='bx bx-x'></i></span>
+        <div class="overlay-content animate-bottom">
+            <form action="">
+                <input type="text" placeholder="Search..." name="search">
+                <button class="btn-search-submit" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="top-line">
+            <div class="top-line-container container">
+                <div class="call-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <strong>0099 8900 878</strong>
+                </div>
+                <div class="access">
+                    <a href="#"><i class="fas fa-sign-in-alt"></i>Sign in</a>
+                    <a href="#"><i class="far fa-heart"></i>Wishlist</a>
+                </div>
+            </div>
+        </div>
+        <nav id="nav-bar">
+            <div class="nav-container container">
+                <div class="logo">
+                    <a href="#" class="logo">Hotel</a>
+                </div>
+                <div class="links" id="links">
+                    <div class="icon cancel-btn" title="Close Side Navigation">
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <div class="links-logo">
+                        <a href="#" class="dropdown-logo">Hotel</a>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color" onclick="dropDown()">Home<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color">Tours<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color">Hotels<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color">Transfers<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color">Restaurants<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn color">Bonus<i class="fas fa-chevron-down"></i></button>
+                        <div class="drop">
+                            <div class="square"></div>
+                            <a href="#">Default slider</a>
+                            <a href="#">Basic slider</a>
+                            <a href="#">Youtube Hero</a>
+                            <a href="#">Vimeo Hero</a>
+                            <a href="#">Full Screen New!</a>
+                            <a href="#">Header video</a>
+                            <a href="#">Carousel</a>
+                            <a href="#">Fixed Caption</a>
+                            <a href="#">Maps</a>
+                            <a href="#">search panel</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <button class="openBtn color" onclick="openSearch()"><i class="fas fa-search color"></i></button>
+                    <a href="#" class="menu-bar icon menu-btn"><i class="fas fa-bars color"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="paralax-view">
+        <div class="paralax-mask">
+            <div class="banner">
+                <div class="banner-container container">
+                    <div class="banner-text">
+                        <h1>Visit Our Locations</h1>
+                        <p>Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Content Fill</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam, optio eos nulla animi earum error itaque neque mollitia porro harum veritatis debitis repellat qui ullam aspernatur voluptas reprehenderit possimus?</p>
+    </div>
+    <!-- == Script == -->
+    <script src="js/script.js"></script>
+</body>
+</html>
